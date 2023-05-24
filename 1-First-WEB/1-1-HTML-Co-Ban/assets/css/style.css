@@ -17,6 +17,11 @@ h1 {
 .subsection-description {
 	margin-left: 130px;
 	display: block;
+	width: min-content;
+}
+.subsection-text {
+	text-align: center;
+	display: block;
 }
 /* Custom Lab listitem */
 .lab {
@@ -28,6 +33,7 @@ h1 {
 	margin-bottom: 5px;
 	column-count: Lab(item);
 	line-height: 25px;
+	width: 85%;
 }
 .lab > li:before {
 	margin-right: 10px;
@@ -58,4 +64,13 @@ h1 {
 }
 .lab.lab6 > li:before {
 	content: 'Lab6.' counter(item);
+}
+.lab.lab7 > li:before {
+	content: 'Lab7.' counter(item);
+}
+.lab.lab8 > li:before {
+	content: 'Lab8.' counter(item);
+}
+.lab.lab9 > li:before {
+	content: 'Lab9.' counter(item);
 }
