@@ -4,6 +4,10 @@
 }
 h1 {
 	text-align: center;
+	text-transform: uppercase;
+}
+h2 {
+	text-transform: uppercase;
 }
 /* Bold for list item */
 .section-number > li::marker {
@@ -73,4 +77,22 @@ h1 {
 }
 .lab.lab9 > li:before {
 	content: 'Lab9.' counter(item);
+}
+.lab.lab10 > li:before {
+	content: 'Lab10.' counter(item);
+}
+.lab.lab11 > li:before {
+	content: 'Lab11.' counter(item);
+}
+.lab.lab12 > li:before {
+	content: 'Lab12.' counter(item);
+}
+.lab.lab13 > li:before {
+	content: 'Lab13.' counter(item);
+}
+.lab.lab14 > li:before {
+	content: 'Lab14.' counter(item);
+}
+.lab.lab15 > li:before {
+	content: 'Lab15.' counter(item);
 }
