@@ -1,0 +1,182 @@
+body {
+	margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+	text-decoration: none;
+	width: 900px;
+	min-height: 900px;
+	margin: 0 auto;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	background-color: #fff;
+	position: relative;
+	padding: 40px;
+}
+
+/*! Don't change CSS code above this line */
+/*! Write CSS code below this line */
+
+/*! Need Better Comments extension for clean view */
+
+/*! Element CSS */
+h1 {
+	color: #0e2452;
+}
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/*! Id CSS */
+#info {
+	position: relative;
+}
+
+/** Class CSS */
+.section {
+	margin: 40px;
+}
+.section-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	border-bottom: 2px solid black;
+}
+.section-content-key {
+	display: block;
+	width: 200px;
+	float: left;
+}
+.section-content-subject {
+	font-weight: 700;
+}
+.section-content-text {
+	max-width: 620px;
+	line-height: 20px;
+}
+.section-content-value {
+	display: block;
+	float: left;
+	width: calc(100% - 200px);
+}
+.section-content-block {
+	border-bottom: 2px solid #eee;
+	margin-bottom: 10px;
+}
+.section-content-block::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.section-content-list {
+	margin: 0;
+	padding-left: 20px;
+}
+.section-content-item-text {
+	display: inline;
+}
+.section-content-inline {
+	display: inline-block;
+	width: 200px;
+}
+.section-content-value-inline {
+	display: inline-block;
+	/* have 4px between 2 inline block */
+	width: calc(100% - 204px);
+}
+
+/*! Specify Section CSS */
+/** Info Session */
+.info-key {
+	width: 100px;
+	font-weight: bold;
+}
+.info-avatar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 113px;
+	height: 167px;
+}
+.info-img {
+	width: 113px;
+	height: 113px;
+}
+
+/** Target Section */
+.target-text {
+	text-align: justify;
+}
+
+/*! Timeline Advanced Request */
+.timeline {
+	position: relative;
+	list-style-type: none;
+}
+.timeline::before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 8px;
+	content: '';
+	display: block;
+	width: 1px;
+	background-color: #ccc;
+}
+.timeline li p {
+	position: relative;
+}
+.timeline .section-content-key p::before {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	content: '';
+	display: block;
+	border-radius: 50%;
+	z-index: 1;
+	background-color: black;
+	top: 50%;
+	left: -14px;
+	transform: translateY(-50%);
+}
+
+/*! Base CSS */
+.bold {
+	font-weight: 700;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.no-border {
+	border: none;
+}
+.no-margin {
+	margin: 0;
+}
+.marbot-10 {
+	margin-bottom: 0.83em;
+}
+.black {
+	color: black;
+}

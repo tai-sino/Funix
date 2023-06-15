@@ -19,11 +19,14 @@ FONT SIZE SYSTEM (px)
 	--tint-main-color: #099268;
 	--tint-text-color: #495057;
 }
+
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
 	font-family: 'Inter', sans-serif;
+	color: var(--text-color);
+	border-bottom: 8px solid var(--main-color);
 }
 
 .container {
@@ -84,6 +87,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+	stroke: var(--main-color);
+	width: 32px;
+	height: 48px;
+	padding-bottom: 16px;
 }
 
 .features-title {
@@ -98,6 +105,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+	background-color: var(--main-color);
+	color: var(--white-color);
+	padding: 24px;
 }
 
 .testimonial-box {
@@ -143,6 +153,9 @@ h3 {
 }
 
 .chair-icon {
+	stroke: var(--main-color);
+	width: 24px;
+	height: 24px;
 }
 
 .chair-price {
@@ -154,8 +167,9 @@ h3 {
 footer {
 	margin-bottom: 48px;
 	font-size: 14px;
+	color: var(--tint-text-color);
 }
-
+/* thêm đề bài */
 .popup a:link,
 .popup a:visited {
 	position: absolute;
@@ -176,3 +190,28 @@ footer {
 	color: var(--white-color);
 	background-color: var(--tint-main-color);
 }
+
+/* Lab11.2 */
+.btn:link,
+.btn:visited {
+	background-color: var(--main-color);
+	color: var(--white-color);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: inline-block;
+}
+.btn:hover,
+.btn:active {
+	background-color: var(--tint-main-color);
+}
+
+.btn--big {
+	font-size: 18px;
+	padding: 16px 32px;
+}
+.btn--small {
+	font-size: 14px;
+	padding: 8px 12px;
+}
+.testimonial-section;
