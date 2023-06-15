@@ -108,6 +108,7 @@ img {
 	background-color: var(--main-color);
 	color: var(--white-color);
 	padding: 24px;
+	border-radius: 12px;
 }
 
 .testimonial-box {
@@ -126,9 +127,16 @@ img {
 	font-size: 18px;
 	line-height: 1.7;
 }
+.testimonial-section img {
+	border-radius: 12px;
+}
 
 /* CHAIRS */
-
+.chair {
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
 .chair-box {
 	padding: 24px;
 }
@@ -201,6 +209,7 @@ footer {
 	text-transform: uppercase;
 	font-weight: 500;
 	display: inline-block;
+	border-radius: 100px;
 }
 .btn:hover,
 .btn:active {
@@ -215,4 +224,3 @@ footer {
 	font-size: 14px;
 	padding: 8px 12px;
 }
-.testimonial-section;
