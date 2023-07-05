@@ -1,0 +1,82 @@
+/* Base */
+:root {
+	--main-color: #087f5b;
+	--grey-color: #343a40;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+.popup {
+	background-color: #087f5b;
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 50px;
+}
+.popup a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.btn {
+	border-radius: 50px;
+	border: none;
+	color: var(--main-color);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: 1px solid var(--main-color);
+	cursor: pointer;
+}
+.btn-icon {
+	width: 16px;
+	height: 16px;
+	stroke: var(--main-color);
+	stroke-width: 3px;
+}
+
+.page-number:link,
+.page-number:visited {
+	display: inline-block;
+	background-color: #fff;
+	font-size: 16px;
+	color: var(--grey-color);
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.page-number:hover,
+.page-number:active,
+.btn:hover,
+.btn:active,
+.btn:hover .btn-icon,
+.btn:active .btn-icon {
+	color: white;
+	background-color: var(--main-color);
+	font-weight: bold;
+	stroke: white;
+}
+
+.page-number:nth-child(4) {
+	color: white;
+	background-color: var(--main-color);
+	font-weight: bold;
+}
